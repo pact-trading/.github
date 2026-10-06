@@ -1,4 +1,4 @@
-![Pact](../assets/pact-og.png)
+![Pact](../assets/pact-banner-f316f4fa.png)
 
 <div align="center">
   <h3>Your team's treasury, run by an agent, guarded by the chain.</h3>
