@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+  <title id="title">Pact — graduated authority for team treasuries</title>
+  <desc id="desc">Pact routes team payments through three policy paths: auto, vote, or never.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0D0E"/>
+      <stop offset="1" stop-color="#151918"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="58%">
+      <stop offset="0" stop-color="#F4F2EC" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#F4F2EC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <path id="module" d="M136 0h32c13.3 0 24 10.7 24 24v72c0 22.1-17.9 40-40 40h-4c-6.6 0-12 5.4-12 12v4c0 22.1-17.9 40-40 40H24c-13.3 0-24-10.7-24-24v-24c0-26.5 21.5-48 48-48h16c17.7 0 32-14.3 32-32V48c0-26.5 17.5-48 40-48Z"/>
+    <style>
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="720" rx="32" fill="url(#bg)"/>
+  <rect width="1440" height="720" rx="32" fill="url(#glow)"/>
+  <path d="M0 130h1440M0 590h1440" stroke="#F4F2EC" stroke-opacity=".06"/>
+  <path d="M160 0v720M1280 0v720" stroke="#F4F2EC" stroke-opacity=".06"/>
+
+  <g transform="translate(120 88) scale(.32)" fill="#F4F2EC">
+    <use href="#module" transform="translate(16 16) scale(.5520833333)"/>
+    <g transform="rotate(90 128 128)"><use href="#module" transform="translate(16 16) scale(.5520833333)"/></g>
+    <g transform="rotate(180 128 128)"><use href="#module" transform="translate(16 16) scale(.5520833333)"/></g>
+    <g transform="rotate(270 128 128)"><use href="#module" transform="translate(16 16) scale(.5520833333)"/></g>
+  </g>
+  <text x="222" y="150" class="sans" fill="#F4F2EC" font-size="46" font-weight="750" letter-spacing="8">PACT</text>
+  <text x="120" y="252" class="sans" fill="#F4F2EC" font-size="64" font-weight="700" letter-spacing="-2">The AI treasurer</text>
+  <text x="120" y="322" class="sans" fill="#F4F2EC" fill-opacity=".64" font-size="31">Run by an agent. Guarded by the chain.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="412" width="344" height="148" rx="24" fill="#F4F2EC"/>
+    <circle cx="169" cy="461" r="18" fill="#0B0D0E"/>
+    <path d="m160 461 6 6 13-14" fill="none" stroke="#F4F2EC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="203" y="466" class="mono" fill="#0B0D0E" font-size="25" font-weight="700">AUTO</text>
+    <text x="151" y="516" class="sans" fill="#0B0D0E" fill-opacity=".68" font-size="20">Known recipient · inside caps</text>
+
+    <rect x="498" y="412" width="344" height="148" rx="24" fill="#222725" stroke="#F4F2EC" stroke-opacity=".26"/>
+    <circle cx="547" cy="461" r="18" fill="none" stroke="#F4F2EC" stroke-width="3"/>
+    <path d="M539 461h16M547 453v16" stroke="#F4F2EC" stroke-width="3" stroke-linecap="round"/>
+    <text x="581" y="466" class="mono" fill="#F4F2EC" font-size="25" font-weight="700">VOTE</text>
+    <text x="529" y="516" class="sans" fill="#F4F2EC" fill-opacity=".62" font-size="20">Over the cap · n of m approval</text>
+
+    <rect x="876" y="412" width="344" height="148" rx="24" fill="#101312" stroke="#F4F2EC" stroke-opacity=".16"/>
+    <circle cx="925" cy="461" r="18" fill="none" stroke="#F4F2EC" stroke-opacity=".7" stroke-width="3"/>
+    <path d="m914 450 22 22M936 450l-22 22" stroke="#F4F2EC" stroke-opacity=".7" stroke-width="3" stroke-linecap="round"/>
+    <text x="959" y="466" class="mono" fill="#F4F2EC" fill-opacity=".78" font-size="25" font-weight="700">NEVER</text>
+    <text x="907" y="516" class="sans" fill="#F4F2EC" fill-opacity=".48" font-size="20">Unknown recipient · blocked</text>
+  </g>
+
+  <path d="M464 486h34M842 486h34" stroke="#F4F2EC" stroke-opacity=".32" stroke-width="2" stroke-dasharray="5 8"/>
+  <text x="120" y="654" class="sans" fill="#F4F2EC" fill-opacity=".46" font-size="19" letter-spacing="2">FOUR VOICES · ONE TREASURY · ONE PACT</text>
+  <text x="1218" y="654" text-anchor="end" class="mono" fill="#F4F2EC" fill-opacity=".36" font-size="17">SOLANA</text>
+</svg>
