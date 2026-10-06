@@ -1,15 +1,8 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../pact-soft-gate-brand-kit/svg/pact-logo-horizontal-white.svg">
-    <source media="(prefers-color-scheme: light)" srcset="../pact-soft-gate-brand-kit/svg/pact-logo-horizontal.svg">
-    <img alt="Pact" src="../pact-soft-gate-brand-kit/svg/pact-logo-horizontal.svg" width="290">
-  </picture>
+![Pact](../assets/pact-og.png)
 
-  <h3>Your team's treasury, run by an agent, guarded by the chain.</h3>
+<div align="center">
   <p><strong>Four voices. One treasury. One pact.</strong></p>
 </div>
-
-![Pact graduated authority](../assets/readme-hero.svg)
 
 Pact is building an AI treasurer for crypto teams on Solana. Routine payments can move automatically, exceptional payments become a vote in the team chat, and forbidden actions never move money.
 
